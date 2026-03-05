@@ -52,6 +52,9 @@ export default function RootLayout({
         <div className="max-w-7xl mx-auto px-6">
           <Navbar />
           {children}
+          <footer className="py-8 text-center text-sm text-slate-500 dark:text-slate-400">
+            © 2026 Milan Withanage. All rights reserved.
+          </footer>
         </div>
       </body>
     </html>

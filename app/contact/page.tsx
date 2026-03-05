@@ -3,14 +3,14 @@ const contactCards = [
     label: "Email",
     value: "milanwithana97@gmail.com",
     href: "mailto:milanwithana97@gmail.com",
-    icon: "fa-envelope-circle-check",
+    icon: "fa-solid fa-envelope",
     accent: "from-sky-500 to-cyan-500",
   },
   {
     label: "Phone",
     value: "+94 76 450 69 36",
     href: "tel:+94764506936",
-    icon: "fa-mobile-screen-button",
+    icon: "fa-solid fa-phone",
     accent: "from-emerald-500 to-teal-500",
   },
   {

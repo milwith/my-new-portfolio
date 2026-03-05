@@ -3,7 +3,7 @@ const contactCards = [
     label: "Email",
     value: "milanwithana97@gmail.com",
     href: "mailto:milanwithana97@gmail.com",
-    icon: "fa-solid fa-envelope",
+    icon: "fa-solid fa-envelope gg",
     accent: "from-sky-500 to-cyan-500",
   },
   {

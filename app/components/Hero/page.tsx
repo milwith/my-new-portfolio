@@ -16,12 +16,18 @@ const Hero = () => {
         </h1>
 
         <p className="text-slate-600 dark:text-slate-400 mt-6">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-          officia consequat duis enim velit mollit.
+          Software Engineer focused on building scalable, reliable, 
+          and high-performance web applications. Experienced in modern 
+          frontend frameworks, backend development, and creating clean, 
+          user-focused interfaces. Passionate about writing maintainable 
+          code, solving complex problems, and delivering impactful digital solutions.
         </p>
 
-        <div className="flex flex-wrap gap-6 mt-8">
-          <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full text-white">
+        <div className="mt-8 flex flex-wrap items-center gap-6">
+          <Link
+            href="/contact"
+            className="inline-flex items-center rounded-full bg-blue-600 px-6 py-3 text-white hover:bg-blue-700"
+          >
             Discuss for Projects
           </Link>
 
@@ -29,7 +35,7 @@ const Hero = () => {
             href="/Milan%20Withanage.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
+            className="inline-flex items-center py-3 text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white"
           >
             View Resume <i className="fa-solid fa-arrow-right ml-2" aria-hidden="true" />
           </a>
